@@ -1,0 +1,156 @@
+main {
+    
+    background-color: #51fa3ead ;
+}
+
+.logo {
+    width: 90px;
+    height: 50px;
+}
+
+.cabecalho{
+    width: 97,5%;
+    background-color: #51fa3eab;
+    padding: 15px;
+    gap: 30px;
+   
+    
+}
+
+.content-cabecalho{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+.menu-navegacao{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+}
+
+.menu-navegacao ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 343px;
+    justify-content: space-evenly;
+}
+
+.menu-navegacao ul li a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.banner {
+    background-image: url(../img/porto\ alegre\ fundo.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    max-height: 700px;
+   
+}
+.paragrafo{
+    padding: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.paragrafo h1{
+    font-family: sans-serif;
+    width: 365px;
+    height: 54px;
+    font-size: 30px;
+}
+
+.cards-curiosidade {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.cards-curiosidade h2 {
+    font-weight: 600;
+    font-size: 25px;
+    padding: 30px ;
+    color: black;
+    text-align: center;
+}
+
+
+.cards{
+
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px ;
+    width: 80%;
+    
+    
+}
+.card{
+    
+    background-color: #5C824B;
+    width: 300px;
+    min-height: 385px;
+    max-height: 550px;
+    min-width: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+    border-radius: 20px;
+}
+.card img{
+    width: 100%;
+    height: 270px;
+    padding: 5px;
+
+}
+
+.video-titulo{
+    font-weight: 600;
+    font-size: 25px;
+    padding: 30px;
+    color: white;
+    text-align: center;
+}
+.video-youtube {
+    padding: 10px;
+
+}
+.links {
+    width: 100%;
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    color: #FFFFFF;
+    font-weight: 600px;
+    font-size: 13px;
+    padding: 15px 0;   
+        
+    
+}
+
+.dev{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 200px;
+}
+
+.dev a img{
+    width: 65px;
+    height: 65px;
+    border-radius: 35px;
+}
